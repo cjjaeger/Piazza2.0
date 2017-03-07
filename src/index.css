@@ -1,0 +1,67 @@
+/* set the base fonts, margins, and paddings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* users can only adjust textareas vertically */
+textarea {
+  resize: vertical;
+}
+
+/* fixes the white space for all text */
+.white-space {
+  white-space: pre-line;
+}
+
+/* margin spacing adjustments for Making a New Post webpage */
+#title, .input-group {
+  margin-bottom: 20px;
+}
+.new-post {
+  margin-top: 20px;
+}
+.new-post button {
+  margin-right: 10px;
+}
+
+/* margin for Read More button on published posts */
+.btn-space {
+    margin-left: 10px;
+}
+
+/* margin spacing for sign out button */
+.sign-out {
+  margin-right: 15px;
+}
+
+.label.label-info{
+  margin-right: 5px;
+}
+.mdl-layout__drawer .btn-primary{
+  width: 100%;
+}
+.mdl-layout__drawer input{
+  line-height: 1.9;
+  border-radius: 10%;
+  border-color: #adadad;
+}
+.panel{
+  margin-bottom: 2px;
+}
+.mdl-layout__content >div{
+  padding: 50px;
+}
+.modal-content input{
+  margin: 10px;
+}
+.modal-body{
+  overflow: visible;
+}
+.ReactTags__tags{
+  padding-left: 15px;
+}
+.pointer{
+  cursor: pointer;
+}
